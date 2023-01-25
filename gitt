@@ -1,0 +1,8 @@
+#!/bin/bash
+echo 'Enter files you want to add (.) For all files'
+echo "Enter commit message"
+read add
+read message 
+git add $add
+git commit -m "$message"
+git push
